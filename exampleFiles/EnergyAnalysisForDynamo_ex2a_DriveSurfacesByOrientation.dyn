@@ -1,40 +1,40 @@
-<Workspace Version="0.7.5.3566" X="-675.616906780572" Y="-161.265415510312" zoom="0.598642683275687" Description="" Category="" Name="Home">
+<Workspace Version="0.7.5.3566" X="-445.526100084977" Y="160.878296554128" zoom="0.45609563140079" Description="" Category="" Name="Home">
   <Elements>
-    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="85d69076-84d9-4526-a557-b8b36581dff5" nickname="Math.RemapRange" x="2811.5025427612" y="727.766679968114" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="DSCoreNodes.dll" function="DSCore.Math.RemapRange@double[],double,double">
-      <PortInfo index="1" default="True" />
-      <PortInfo index="2" default="True" />
-    </Dynamo.Nodes.DSFunction>
     <Dynamo.Nodes.DoubleSlider type="Dynamo.Nodes.DoubleSlider" guid="63016597-8c18-4f82-b3e9-bfe4a5ac372e" nickname="Min Glazing %" x="2314.20374491792" y="836.897513891482" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <System.Double>0.2</System.Double>
       <Range min="0.2" max="0.8" />
     </Dynamo.Nodes.DoubleSlider>
     <Dynamo.Nodes.DoubleSlider type="Dynamo.Nodes.DoubleSlider" guid="4ab758f9-2e13-4549-bf03-86d09239b7e5" nickname="Max Glazing %" x="2310.14730293737" y="934.091639465527" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
-      <System.Double>0.8</System.Double>
+      <System.Double>0.74632627160478</System.Double>
       <Range min="0.2" max="0.8" />
     </Dynamo.Nodes.DoubleSlider>
     <Dynamo.Nodes.DSModelElementSelection type="Dynamo.Nodes.DSModelElementSelection" guid="805473f9-662e-4e0b-bc1c-bfa37ffbd3be" nickname="Select Model Element" x="1234.46228165195" y="498.508687006981" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
-      <instance id="b65f1016-70d4-404e-8214-0cf528a2fe1a-0003a6c0" />
+      <instance id="822de3a8-2f15-4e66-b339-c7c097590daf-0003aac8" />
     </Dynamo.Nodes.DSModelElementSelection>
     <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="f5712f83-1404-49c8-bfb4-6c2df02bd726" nickname="Vector.Dot" x="2597.57532922163" y="655.110014722764" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Vector.Dot@Autodesk.DesignScript.Geometry.Vector" />
-    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="e3601ff1-6cf7-4151-adb5-f963159ee3a9" nickname="Vector.YAxis" x="2471.84548156197" y="626.53504934557" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Vector.YAxis" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="e3601ff1-6cf7-4151-adb5-f963159ee3a9" nickname="Vector.YAxis" x="2449.27001098043" y="554.293543484645" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="ProtoGeometry.dll" function="Autodesk.DesignScript.Geometry.Vector.YAxis" />
     <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="8ea13fde-c1f0-46d2-a9dd-267b1949d98f" nickname="PrepareEnergyModel.AnalysisSurfaceVector" x="2272.85296464084" y="717.947043636826" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="EnergyAnalysisForDynamo.dll" function="EnergyAnalysisForDynamo.PrepareEnergyModel.AnalysisSurfaceVector@EnergyAnalysisForDynamo.ElementId" />
-    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="aa6e26ff-4130-4317-a2c5-5acc34137262" nickname="PrepareEnergyModel.DrawAnalysisSurface" x="3349.45101616274" y="510.87720375398" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="EnergyAnalysisForDynamo.dll" function="EnergyAnalysisForDynamo.PrepareEnergyModel.DrawAnalysisSurface@EnergyAnalysisForDynamo.ElementId" />
-    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="33e1b989-8617-482a-a171-b51c985b2ed5" nickname="PrepareEnergyModel.SetWallSurfaceParameters" x="3006.65300206063" y="509.920229860126" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="EnergyAnalysisForDynamo.dll" function="EnergyAnalysisForDynamo.PrepareEnergyModel.SetWallSurfaceParameters@EnergyAnalysisForDynamo.ElementId,double,double,double,string">
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="aa6e26ff-4130-4317-a2c5-5acc34137262" nickname="PrepareEnergyModel.DrawAnalysisSurface" x="3619.79259065846" y="508.566592006153" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="EnergyAnalysisForDynamo.dll" function="EnergyAnalysisForDynamo.PrepareEnergyModel.DrawAnalysisSurface@EnergyAnalysisForDynamo.ElementId" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="33e1b989-8617-482a-a171-b51c985b2ed5" nickname="PrepareEnergyModel.SetWallSurfaceParameters" x="3276.99457655635" y="507.609618112299" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="EnergyAnalysisForDynamo.dll" function="EnergyAnalysisForDynamo.PrepareEnergyModel.SetWallSurfaceParameters@EnergyAnalysisForDynamo.ElementId,double,double,double,string">
       <PortInfo index="1" default="True" />
       <PortInfo index="2" default="True" />
       <PortInfo index="3" default="True" />
       <PortInfo index="4" default="True" />
     </Dynamo.Nodes.DSFunction>
     <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="93e0faea-3ec3-4e44-b9ea-9f87577233b2" nickname="PrepareEnergyModel.CreateByMass" x="1520.51371164386" y="496.07859243138" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="EnergyAnalysisForDynamo.dll" function="EnergyAnalysisForDynamo.PrepareEnergyModel.CreateByMass@Revit.Elements.AbstractFamilyInstance" />
-    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="a591c719-9249-4233-b4d5-4f9761566fc5" nickname="Code Block" x="2861.42804811849" y="588.624709490072" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="1;" ShouldFocus="false" />
+    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="a591c719-9249-4233-b4d5-4f9761566fc5" nickname="Code Block" x="3131.76962261421" y="586.314097742245" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="1;" ShouldFocus="false" />
     <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="29e10175-9c8c-4365-98bf-28be9a911112" nickname="PrepareEnergyModel.DecomposeZone" x="1962.40700770021" y="529.027376923204" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="EnergyAnalysisForDynamo.dll" function="EnergyAnalysisForDynamo.PrepareEnergyModel.DecomposeZone@EnergyAnalysisForDynamo.ElementId" />
+    <Dynamo.Nodes.Watch type="Dynamo.Nodes.Watch" guid="bb2b21c5-fdb5-47d2-99aa-3ec447f0bbd9" nickname="Watch" x="2646.93631289415" y="1123.20709400962" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
+    <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="7eaf0136-344f-4f50-84c7-a9a4d066f8c6" nickname="MapTo" x="2896.67583820048" y="749.040255510893" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="" function="MapTo@double,double,double,double,double" />
+    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="3cf75cc3-1976-4244-b028-75369a62812c" nickname="Code Block" x="2763.865865754" y="773.898849788992" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="1;" ShouldFocus="false" />
+    <Dynamo.Nodes.CodeBlockNodeModel type="Dynamo.Nodes.CodeBlockNodeModel" guid="bb045970-f59e-4f33-be3d-fa99fbc5600a" nickname="Code Block" x="2765.03529762775" y="692.231958999336" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="-1;" ShouldFocus="false" />
   </Elements>
   <Connectors>
-    <Dynamo.Models.ConnectorModel start="85d69076-84d9-4526-a557-b8b36581dff5" start_index="0" end="33e1b989-8617-482a-a171-b51c985b2ed5" end_index="1" portType="0" />
-    <Dynamo.Models.ConnectorModel start="63016597-8c18-4f82-b3e9-bfe4a5ac372e" start_index="0" end="85d69076-84d9-4526-a557-b8b36581dff5" end_index="1" portType="0" />
-    <Dynamo.Models.ConnectorModel start="4ab758f9-2e13-4549-bf03-86d09239b7e5" start_index="0" end="85d69076-84d9-4526-a557-b8b36581dff5" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="63016597-8c18-4f82-b3e9-bfe4a5ac372e" start_index="0" end="bb2b21c5-fdb5-47d2-99aa-3ec447f0bbd9" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="63016597-8c18-4f82-b3e9-bfe4a5ac372e" start_index="0" end="7eaf0136-344f-4f50-84c7-a9a4d066f8c6" end_index="3" portType="0" />
+    <Dynamo.Models.ConnectorModel start="4ab758f9-2e13-4549-bf03-86d09239b7e5" start_index="0" end="7eaf0136-344f-4f50-84c7-a9a4d066f8c6" end_index="4" portType="0" />
     <Dynamo.Models.ConnectorModel start="805473f9-662e-4e0b-bc1c-bfa37ffbd3be" start_index="0" end="93e0faea-3ec3-4e44-b9ea-9f87577233b2" end_index="0" portType="0" />
-    <Dynamo.Models.ConnectorModel start="f5712f83-1404-49c8-bfb4-6c2df02bd726" start_index="0" end="85d69076-84d9-4526-a557-b8b36581dff5" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="f5712f83-1404-49c8-bfb4-6c2df02bd726" start_index="0" end="7eaf0136-344f-4f50-84c7-a9a4d066f8c6" end_index="2" portType="0" />
     <Dynamo.Models.ConnectorModel start="e3601ff1-6cf7-4151-adb5-f963159ee3a9" start_index="0" end="f5712f83-1404-49c8-bfb4-6c2df02bd726" end_index="0" portType="0" />
     <Dynamo.Models.ConnectorModel start="8ea13fde-c1f0-46d2-a9dd-267b1949d98f" start_index="0" end="f5712f83-1404-49c8-bfb4-6c2df02bd726" end_index="1" portType="0" />
     <Dynamo.Models.ConnectorModel start="33e1b989-8617-482a-a171-b51c985b2ed5" start_index="0" end="aa6e26ff-4130-4317-a2c5-5acc34137262" end_index="0" portType="0" />
@@ -42,12 +42,15 @@
     <Dynamo.Models.ConnectorModel start="a591c719-9249-4233-b4d5-4f9761566fc5" start_index="0" end="33e1b989-8617-482a-a171-b51c985b2ed5" end_index="3" portType="0" />
     <Dynamo.Models.ConnectorModel start="29e10175-9c8c-4365-98bf-28be9a911112" start_index="0" end="8ea13fde-c1f0-46d2-a9dd-267b1949d98f" end_index="0" portType="0" />
     <Dynamo.Models.ConnectorModel start="29e10175-9c8c-4365-98bf-28be9a911112" start_index="0" end="33e1b989-8617-482a-a171-b51c985b2ed5" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="7eaf0136-344f-4f50-84c7-a9a4d066f8c6" start_index="0" end="33e1b989-8617-482a-a171-b51c985b2ed5" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="3cf75cc3-1976-4244-b028-75369a62812c" start_index="0" end="7eaf0136-344f-4f50-84c7-a9a4d066f8c6" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="bb045970-f59e-4f33-be3d-fa99fbc5600a" start_index="0" end="7eaf0136-344f-4f50-84c7-a9a4d066f8c6" end_index="0" portType="0" />
   </Connectors>
   <Notes>
     <Dynamo.Models.NoteModel text="2. Create Analysis Zones from Mass" x="1543.52580437897" y="439.384713455274" />
     <Dynamo.Models.NoteModel text="1. Select Mass element from Revit/Vasari document" x="1171.77753840937" y="441.837162739971" />
-    <Dynamo.Models.NoteModel text="4.  Set Glazing percentages based on orientation" x="3052.42495356504" y="448.624528257823" />
-    <Dynamo.Models.NoteModel text="5. Draw Surfaces in Dynamo" x="3455.11538834939" y="447.231808898968" />
+    <Dynamo.Models.NoteModel text="4.  Set Glazing percentages based on orientation" x="3322.76652806076" y="446.313916509996" />
+    <Dynamo.Models.NoteModel text="5. Draw Surfaces in Dynamo" x="3725.45696284511" y="444.921197151141" />
     <Dynamo.Models.NoteModel text="3. Get wall surfaces from the list of zones, and compute glazing percentage based on orientation" x="1983.7964479785" y="467.492828765876" />
   </Notes>
 </Workspace>

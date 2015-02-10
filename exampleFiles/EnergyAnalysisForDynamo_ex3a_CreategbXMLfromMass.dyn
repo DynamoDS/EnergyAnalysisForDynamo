@@ -1,4 +1,4 @@
-<Workspace Version="0.7.4.3245" X="-1033.90946576954" Y="-1033.35365309726" zoom="0.831588811919638" Description="" Category="" Name="Home">
+<Workspace Version="0.7.5.3566" X="-1574.55702077744" Y="-1447.70808090936" zoom="1.11647476552526" Description="" Category="" Name="Home">
   <Elements>
     <DSCoreNodesUI.BoolSelector type="DSCoreNodesUI.BoolSelector" guid="da476d52-2857-49e4-bd9c-666302a7fb8f" nickname="Boolean" x="1806.406742111" y="1712.3503621082" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
       <System.Boolean>True</System.Boolean>
@@ -11,8 +11,7 @@
     </Dynamo.Nodes.DSFunction>
     <Dynamo.Nodes.DSFunction type="Dynamo.Nodes.DSFunction" guid="dee4f6d3-3518-4a7d-a272-3c67bec9a96e" nickname="List.Empty" x="1844.28535113536" y="1612.94639243604" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="DSCoreNodes.dll" function="DSCore.List.Empty" />
     <DSCore.File.Filename type="DSCore.File.Filename" guid="eba0f211-a161-4abe-9323-d59c06731f7e" nickname="File Path" x="1780.6283145626" y="1404.77451735869" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
-      <System.String>
-      </System.String>
+      <System.String>C:\Users\DReynolds\Desktop\IterativeGlazingTester\test</System.String>
     </DSCore.File.Filename>
   </Elements>
   <Connectors>
