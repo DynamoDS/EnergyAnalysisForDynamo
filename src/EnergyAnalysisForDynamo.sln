@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyAnalysisForDynamo", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyAnalysisForDynamo_UI", "EnergyAnalysisForDynamo_UI\EnergyAnalysisForDynamo_UI.csproj", "{8576F024-8D64-4F83-95A8-623D437AF502}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitSampleTests", "EnergyAnalysisForDynamo\Tests\Libraries\SampleTest\RevitSampleTests.csproj", "{BBEB308E-7A54-4F2D-B347-1F39111F4FCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamoSampleTests", "EnergyAnalysisForDynamo\Tests\Libraries\RevitIntegrationTests\DynamoSampleTests\DynamoSampleTests.csproj", "{1EF13D46-5A8A-4B65-B1C9-93336F3C8164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitIntegrationTests", "EnergyAnalysisForDynamo\Tests\Libraries\RevitIntegrationTests\RevitIntegrationTests.csproj", "{F4AE4322-1BEA-4638-BC94-57F6E581C9D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{5D5CD013-5ABB-46C0-9982-CC7E7FC03C19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +29,25 @@ Global
 		{8576F024-8D64-4F83-95A8-623D437AF502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8576F024-8D64-4F83-95A8-623D437AF502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8576F024-8D64-4F83-95A8-623D437AF502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBEB308E-7A54-4F2D-B347-1F39111F4FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBEB308E-7A54-4F2D-B347-1F39111F4FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBEB308E-7A54-4F2D-B347-1F39111F4FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBEB308E-7A54-4F2D-B347-1F39111F4FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EF13D46-5A8A-4B65-B1C9-93336F3C8164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF13D46-5A8A-4B65-B1C9-93336F3C8164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF13D46-5A8A-4B65-B1C9-93336F3C8164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF13D46-5A8A-4B65-B1C9-93336F3C8164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4AE4322-1BEA-4638-BC94-57F6E581C9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4AE4322-1BEA-4638-BC94-57F6E581C9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4AE4322-1BEA-4638-BC94-57F6E581C9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4AE4322-1BEA-4638-BC94-57F6E581C9D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBEB308E-7A54-4F2D-B347-1F39111F4FCF} = {5D5CD013-5ABB-46C0-9982-CC7E7FC03C19}
+		{1EF13D46-5A8A-4B65-B1C9-93336F3C8164} = {5D5CD013-5ABB-46C0-9982-CC7E7FC03C19}
+		{F4AE4322-1BEA-4638-BC94-57F6E581C9D6} = {5D5CD013-5ABB-46C0-9982-CC7E7FC03C19}
 	EndGlobalSection
 EndGlobal
