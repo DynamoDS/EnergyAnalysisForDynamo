@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<RevitTestConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WorkingDirectory>C:\Users\bh\Documents\GitHub\EnergyAnalysisForDynamo\exampleFiles</WorkingDirectory>
+  <SamplesPath>C:\ProgramData\Dynamo\0.8\samples</SamplesPath>
+  <DefinitionsPath>C:\Users\bh\AppData\Roaming\Dynamo\0.8\packages\Energy Analysis for  Dynamo\dyf</DefinitionsPath>
+</RevitTestConfiguration>
