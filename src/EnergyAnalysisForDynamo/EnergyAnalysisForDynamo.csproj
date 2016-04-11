@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(SolutionDir)\Config\user_local.props" />
+  </ImportGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -34,27 +37,27 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CoreNodeModels">
-      <HintPath>..\..\..\Dynamo\bin\AnyCPU\Debug\nodes\CoreNodeModels.dll</HintPath>
+      <HintPath>$(DYNAMOAPI)\nodes\CoreNodeModels.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="DSCoreNodes">
-      <HintPath>..\..\..\Dynamo\bin\AnyCPU\Debug\DSCoreNodes.dll</HintPath>
+      <HintPath>$(DYNAMOAPI)\DSCoreNodes.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="DynamoCore">
-      <HintPath>..\..\..\Dynamo\bin\AnyCPU\Debug\DynamoCore.dll</HintPath>
+      <HintPath>$(DYNAMOAPI)\DynamoCore.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="DynamoServices">
-      <HintPath>..\..\..\Dynamo\bin\AnyCPU\Debug\DynamoServices.dll</HintPath>
+      <HintPath>$(DYNAMOAPI)\DynamoServices.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="DynamoRevitDS">
-      <HintPath>..\..\..\Dynamo\bin\AnyCPU\Debug\Revit_2015\DynamoRevitDS.dll</HintPath>
+      <HintPath>$(DYNAMOAPI)\$(REVIT_VERSION)\DynamoRevitDS.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="DynamoUtilities">
-      <HintPath>..\..\..\Dynamo\bin\AnyCPU\Debug\DynamoUtilities.dll</HintPath>
+      <HintPath>$(DYNAMOAPI)\DynamoUtilities.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="EnergyAnalysisforDynamoAuthHelper">
@@ -66,41 +69,41 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Practices.Prism">
-      <HintPath>..\..\..\Dynamo\extern\prism\Microsoft.Practices.Prism.dll</HintPath>
+      <HintPath>$(DynamoExternPath)\prism\Microsoft.Practices.Prism.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="ProtoCore">
-      <HintPath>..\..\..\Dynamo\bin\AnyCPU\Debug\ProtoCore.dll</HintPath>
+      <HintPath>$(DYNAMOAPI)\ProtoCore.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ProtoGeometry">
-      <HintPath>..\..\..\Dynamo\bin\AnyCPU\Debug\ProtoGeometry.dll</HintPath>
+      <HintPath>$(DYNAMOAPI)\ProtoGeometry.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPI">
-      <HintPath>C:\Program Files\Autodesk\Revit 2015\RevitAPI.dll</HintPath>
+      <HintPath>$(REVITAPI)\RevitAPI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPIUI">
-      <HintPath>C:\Program Files\Autodesk\Revit 2015\RevitAPIUI.dll</HintPath>
+      <HintPath>$(REVITAPI)\RevitAPIUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="RevitNodes">
-      <HintPath>..\..\..\Dynamo\bin\AnyCPU\Debug\Revit_2015\RevitNodes.dll</HintPath>
+      <HintPath>$(DYNAMOAPI)\$(REVIT_VERSION)\RevitNodes.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="RevitServices">
-      <HintPath>..\..\..\Dynamo\bin\AnyCPU\Debug\Revit_2015\RevitServices.dll</HintPath>
+      <HintPath>$(DYNAMOAPI)\$(REVIT_VERSION)\RevitServices.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="SSONET">
-      <HintPath>C:\Program Files\Autodesk\Revit 2015\SSONET.dll</HintPath>
+      <HintPath>$(REVITAPI)\SSONET.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="SSONETUI">
-      <HintPath>C:\Program Files\Autodesk\Revit 2015\SSONETUI.dll</HintPath>
+      <HintPath>$(REVITAPI)\SSONETUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
