@@ -53,7 +53,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="DynamoRevitDS">
-      <HintPath>$(DYNAMOAPI)\$(REVIT_VERSION)\DynamoRevitDS.dll</HintPath>
+      <HintPath>$(DYNAMOREVITAPI)\DynamoRevitDS.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="DynamoUtilities">
@@ -69,7 +69,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Practices.Prism">
-      <HintPath>$(DynamoExternPath)\prism\Microsoft.Practices.Prism.dll</HintPath>
+      <HintPath>$(DYNAMOAPI)\Microsoft.Practices.Prism.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="PresentationCore" />
@@ -91,11 +91,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="RevitNodes">
-      <HintPath>$(DYNAMOAPI)\$(REVIT_VERSION)\RevitNodes.dll</HintPath>
+      <HintPath>$(DYNAMOREVITAPI)\RevitNodes.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="RevitServices">
-      <HintPath>$(DYNAMOAPI)\$(REVIT_VERSION)\RevitServices.dll</HintPath>
+      <HintPath>$(DYNAMOREVITAPI)\RevitServices.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="SSONET">
