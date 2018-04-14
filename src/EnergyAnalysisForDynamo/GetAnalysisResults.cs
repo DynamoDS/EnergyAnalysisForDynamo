@@ -21,8 +21,7 @@ using Autodesk.Revit.DB.Analysis;
 using Autodesk.DesignScript.Runtime;
 
 //Dynamo
-using DSCore;
-using DSCoreNodesUI;
+using CoreNodeModels;
 using Dynamo.Models;
 using Dynamo.Nodes;
 using Dynamo.Utilities;

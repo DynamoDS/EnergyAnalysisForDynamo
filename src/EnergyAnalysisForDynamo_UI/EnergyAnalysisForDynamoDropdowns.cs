@@ -4,11 +4,12 @@ using System.Globalization;
 using System.Linq;
 using System.Xml;
 using DSCore;
-using DSCoreNodesUI;
+using CoreNodeModels;
 using Dynamo.Models;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.DB.Analysis;
 using ProtoCore.AST.AssociativeAST;
+using Dynamo.Graph.Nodes;
 
 namespace EnergyAnalysisForDynamo_UI
 {
@@ -47,13 +48,14 @@ namespace EnergyAnalysisForDynamo_UI
         /// <summary>
         /// The populate items override.  Not sure why this gets called before the constructor, but it does!
         /// </summary>
-        public override void PopulateItems()
+        protected override SelectionState PopulateItemsCore(string currentSelection)
         {
             Items.Clear();
             foreach (var i in myDropdownItems)
             {
                 Items.Add(new DynamoDropDownItem(i, i)); 
             }
+            return SelectionState.Restore;
         }
 
         /// <summary>

@@ -21,8 +21,7 @@ using Autodesk.Revit.DB.Analysis;
 using Autodesk.DesignScript.Runtime;
 
 //Dynamo
-using DSCore;
-using DSCoreNodesUI;
+using CoreNodeModels;
 using Dynamo.Models;
 using Dynamo.Nodes;
 using Dynamo.Utilities;
@@ -62,7 +61,7 @@ namespace EnergyAnalysisForDynamo
         /// <param name="ProjectId"> Input Project ID </param>
         /// <param name="gbXMLPaths"> Input file path of gbXML File </param>
         /// <param name="ExecuteParametricRuns"> Set to true to execute parametric runs. You can read more about parametric runs here: http://autodesk.typepad.com/bpa/ </param>
-        /// /// <param name="Timeout"> Set custom connection timeout value. Default is 300000 ms (2 mins) </param>
+        /// <param name="Timeout"> Set custom connection timeout value. Default is 300000 ms (2 mins) </param>
         /// <returns></returns>
         [MultiReturn("RunIds","UploadTimes","Report")]
         public static Dictionary<string, List<object>> RunEnergyAnalysis(int ProjectId, List<string> gbXMLPaths, bool ExecuteParametricRuns = false, int Timeout = 300000)

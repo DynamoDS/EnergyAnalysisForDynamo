@@ -9,7 +9,7 @@ using Autodesk.Revit.DB;
 using Autodesk.Revit.DB.Analysis;
 using Autodesk.Revit.UI;
 using DSCore;
-using DSCoreNodesUI;
+using CoreNodeModels;
 using Dynamo.Models;
 using Dynamo.Nodes;
 using Dynamo.Utilities;
